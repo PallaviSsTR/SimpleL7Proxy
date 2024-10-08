@@ -259,15 +259,15 @@ namespace SimpleL7Proxy.ProxyWorker
                     var urlWithPath = new UriBuilder(host.url) { Path = request.Path }.Uri.AbsoluteUri;
                     request.FullURL = System.Net.WebUtility.UrlDecode(urlWithPath);
 
-                    using (var bodyContent = new ByteArrayContent(bodyBytes))
-                    using (var proxyRequest = new HttpRequestMessage(new HttpMethod(request.Method), request.FullURL))
+                using (var bodyContent = new ByteArrayContent(bodyBytes))
+                using (var proxyRequest = new HttpRequestMessage(new HttpMethod(request.Method), request.FullURL))
+                {
+                    proxyRequest.Content = bodyContent;
+                    
+                    CopyHeaders( request.Headers, proxyRequest, false);
+                    if (bodyBytes.Length > 0)
                     {
-                        proxyRequest.Content = bodyContent;
-
-                        CopyHeaders(request.Headers, proxyRequest, true);
-                        if (bodyBytes.Length > 0)
-                        {
-                            proxyRequest.Content.Headers.ContentLength = bodyBytes.Length;
+                        proxyRequest.Content.Headers.ContentLength = bodyBytes.Length;
 
                             // Preserve the content type if it was provided
                             string contentType = request.Context?.Request.ContentType ?? "application/octet-stream"; // Default to application/octet-stream if not specified
