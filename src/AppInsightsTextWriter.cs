@@ -1,8 +1,10 @@
 using Microsoft.ApplicationInsights;
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Text;
 
+[ExcludeFromCodeCoverage]
 public class AppInsightsTextWriter : TextWriter
 {
     private readonly TelemetryClient _telemetryClient;

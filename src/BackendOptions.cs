@@ -1,8 +1,10 @@
 using SimpleL7Proxy.BackendHost;
 using SimpleL7Proxy.Interfaces;
+using System.Diagnostics.CodeAnalysis;
 
 namespace SimpleL7Proxy.BackendOptions
 {
+    [ExcludeFromCodeCoverage]
     public class BackendOptions : IBackendOptions
     {
         public int Port { get; set; }

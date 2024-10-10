@@ -19,6 +19,7 @@ using SimpleL7Proxy.Interfaces;
 using SimpleL7Proxy.IServer;
 using SimpleL7Proxy.ProxyWorker;
 using SimpleL7Proxy.Server;
+using System.Diagnostics.CodeAnalysis;
 
 
 // This code serves as the entry point for the .NET application.
@@ -31,7 +32,7 @@ using SimpleL7Proxy.Server;
 // Once the backend indicates that it is ready, it starts up the server listener and worker tasks.
 
 // a single cancelation token is shared and used to signal the application to shut down.
-
+[ExcludeFromCodeCoverage]
 public class Program
 {
     private static HttpClient hc = new HttpClient();

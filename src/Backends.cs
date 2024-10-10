@@ -199,7 +199,7 @@ namespace SimpleL7Proxy.Backends
             return _statusChanged;
         }
 
-        private async Task<bool> GetHostStatus(BackendHost.BackendHost host, HttpClient client)
+        public virtual async Task<bool> GetHostStatus(BackendHost.BackendHost host, HttpClient client)
         {
             if (_debug)
                 Console.WriteLine($"Checking host {host.url + host.probe_path}");
