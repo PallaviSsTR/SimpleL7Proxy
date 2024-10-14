@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Net;
 using System.Threading.Tasks;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace SimpleL7Proxy.RequestData
 {
+    [ExcludeFromCodeCoverage]
     public class RequestData : IDisposable, IAsyncDisposable
     {
         public HttpListenerContext? Context { get; private set; }

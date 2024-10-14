@@ -11,9 +11,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using SimpleL7Proxy.Backends;
 using System.Reflection;
-using System.Net;
 using NUnit.Framework.Interfaces;
 using Castle.Core.Internal;
+using Azure.Core;
+using Azure.Identity;
+using static NUnit.Framework.Constraints.Tolerance;
 
 [TestFixture]
 public class BackendsTests
@@ -141,6 +143,53 @@ public class BackendsTests
 
         // Assert
         Assert.IsNotEmpty(_backends.Object.GetActiveHosts());
+    }
+
+    [Test]
+    public void FormatMilliseconds_ShouldReturnCorrectFormat()
+    {
+        // Arrange
+        double milliseconds = 3661000; // 1 hour, 1 minute, 1 second, 0 milliseconds
+
+        // Act
+        var result = Backends.FormatMilliseconds(milliseconds);
+
+        // Assert
+        Assert.AreEqual("01:01:01 000 milliseconds", result);
+    }
+
+    [Test]
+    public async Task GetTokenAsync_ShouldThrowCredentialUnavailableException()
+    {
+        // Arrange
+        var mockCredential = new Mock<TokenCredential>();
+        var expectedToken = new AccessToken("test_token", DateTimeOffset.UtcNow.AddMinutes(5));
+        mockCredential
+            .Setup(c => c.GetTokenAsync(It.IsAny<TokenRequestContext>(), It.IsAny<CancellationToken>()))
+            .ReturnsAsync(expectedToken);
+
+        var credentialField = typeof(Backends).GetField("_credential", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+        _backendOptions.OAuthAudience = "Read";
+
+        // Act and Assert
+        Assert.ThrowsAsync<CredentialUnavailableException>(async () => await _backends.Object.GetTokenAsync());
+    }
+
+    [Test]
+    public async Task GetToken_ShouldFetchAndRefreshToken()
+    {
+        // Arrange
+        var expectedToken = new AccessToken("test_token", DateTimeOffset.UtcNow.AddMinutes(1));
+        _backends.Setup(b => b.GetTokenAsync()).ReturnsAsync(expectedToken);
+
+        // Act
+        _backends.Object.GetToken();
+        await Task.Delay(2000); // Let the GetToken method execute for a short time
+
+        // Assert
+        var authTokenField = typeof(Backends).GetProperty("AuthToken", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+        var authToken = (AccessToken)authTokenField.GetValue(_backends.Object);
+        Assert.AreEqual(expectedToken.Token, authToken.Token);
     }
 
 }

@@ -1,9 +1,11 @@
+using System.Diagnostics.CodeAnalysis;
 using System.Net;
 
 
 // This class represents the data returned from the downstream host.
 namespace SimpleL7Proxy.ProxyData
 {
+    [ExcludeFromCodeCoverage]
     public class ProxyData
     {
         public HttpStatusCode StatusCode { get; set; }
