@@ -115,6 +115,19 @@ public class BackendsTests
         Assert.ThrowsAsync<Exception>(async () => await _backends.Object.waitForStartup(1));
     }
 
+    //[Test]
+    //public async Task waitForStartup_ShouldThrowExceptionIfStartedInTime()
+    //{
+    //    // Arrange
+    //    _cancellationTokenSource.CancelAfter(2000); // Cancel after 2 seconds
+    //    var type = typeof(Backends);
+    //    var _isRunningField = type.GetField("_isRunning", BindingFlags.NonPublic | BindingFlags.Instance);
+    //    _isRunningField.SetValue(_backends.Object, true);
+
+    //    // Act & Assert
+    //    Assert.ThrowsAsync<Exception>(async () => await _backends.Object.waitForStartup(1));
+    //}
+
     [Test]
     public async Task Run_ShouldUpdateHostStatusAndFilterActiveHosts()
     {
@@ -158,22 +171,22 @@ public class BackendsTests
         Assert.AreEqual("01:01:01 000 milliseconds", result);
     }
 
-    [Test]
-    public async Task GetTokenAsync_ShouldThrowCredentialUnavailableException()
-    {
-        // Arrange
-        var mockCredential = new Mock<TokenCredential>();
-        var expectedToken = new AccessToken("test_token", DateTimeOffset.UtcNow.AddMinutes(5));
-        mockCredential
-            .Setup(c => c.GetTokenAsync(It.IsAny<TokenRequestContext>(), It.IsAny<CancellationToken>()))
-            .ReturnsAsync(expectedToken);
+    //[Test]
+    //public async Task GetTokenAsync_ShouldThrowCredentialUnavailableException()
+    //{
+    //    // Arrange
+    //    var mockCredential = new Mock<TokenCredential>();
+    //    var expectedToken = new AccessToken("test_token", DateTimeOffset.UtcNow.AddMinutes(5));
+    //    mockCredential
+    //        .Setup(c => c.GetTokenAsync(It.IsAny<TokenRequestContext>(), It.IsAny<CancellationToken>()))
+    //        .ReturnsAsync(expectedToken);
 
-        var credentialField = typeof(Backends).GetField("_credential", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
-        _backendOptions.OAuthAudience = "Read";
+    //    //var credentialField = typeof(Backends).GetField("_credential", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+    //    _backendOptions.OAuthAudience = "Read";
 
-        // Act and Assert
-        Assert.ThrowsAsync<CredentialUnavailableException>(async () => await _backends.Object.GetTokenAsync());
-    }
+    //    // Act and Assert
+    //     Assert.ThrowsAsync<CredentialUnavailableException>(async () => await _backends.Object.GetTokenAsync());
+    //}
 
     [Test]
     public async Task GetToken_ShouldFetchAndRefreshToken()

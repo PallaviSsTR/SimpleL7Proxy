@@ -3,30 +3,53 @@
   "WorkspaceRootPath": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\eventhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:eventhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\backendhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:backendhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\backendhosttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\backendstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\backends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:backends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\proxydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:proxydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:priorityqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\eventhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:eventhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\backendoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:backendoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\backendhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:backendhost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\appinsightstextwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:appinsightstextwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\backends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:backends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\backendstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\proxyworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:proxyworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\priorityqueueitemcomparertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\blockingpriorityqueuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,30 +60,15 @@
       "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:iserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\proxyworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:proxyworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:requestdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\proxydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:proxydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\backendhosttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\src\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63C0EB3E-5382-432A-8CD1-06453DA72041}|SimpleL7Proxy.csproj|solutionrelative:server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\priorityqueueitemcomparertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\blockingpriorityqueuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AEEFF8FB-7CB9-451C-BF05-422C9BB212FC}|..\\SimpleL7ProxyTest\\SimpleL7ProxyTest.csproj|c:\\users\\c296912\\documents\\workspace\\simplel7proxy_forked\\simplel7proxy\\simplel7proxytest\\priorityqueuetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -77,13 +85,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "BackendHost.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\BackendHost.cs",
               "RelativeDocumentMoniker": "BackendHost.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\BackendHost.cs",
               "RelativeToolTip": "BackendHost.cs",
-              "ViewState": "AgIAABsAAABgz8zMzEwWwBgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAACARzMzMzPjvxwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:00:51.076Z",
               "IsPinned": true,
@@ -91,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "BackendHostTests.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\BackendHostTests.cs",
               "RelativeDocumentMoniker": "..\\SimpleL7ProxyTest\\BackendHostTests.cs",
@@ -105,13 +113,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "PriorityQueue.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\PriorityQueue.cs",
               "RelativeDocumentMoniker": "PriorityQueue.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\PriorityQueue.cs",
               "RelativeToolTip": "PriorityQueue.cs",
-              "ViewState": "AgIAAC4AAACAvszMzMwbwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T06:12:21.36Z",
               "IsPinned": true,
@@ -119,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "PriorityQueueItemComparerTests.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\PriorityQueueItemComparerTests.cs",
               "RelativeDocumentMoniker": "..\\SimpleL7ProxyTest\\PriorityQueueItemComparerTests.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\PriorityQueueItemComparerTests.cs",
               "RelativeToolTip": "..\\SimpleL7ProxyTest\\PriorityQueueItemComparerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAADAzMzMzEw0wF4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:06:52.91Z",
               "IsPinned": true,
@@ -133,13 +141,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 11,
               "Title": "BlockingPriorityQueueTests.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\BlockingPriorityQueueTests.cs",
               "RelativeDocumentMoniker": "..\\SimpleL7ProxyTest\\BlockingPriorityQueueTests.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\BlockingPriorityQueueTests.cs",
               "RelativeToolTip": "..\\SimpleL7ProxyTest\\BlockingPriorityQueueTests.cs",
-              "ViewState": "AgIAAAsAAADAy8zMzMwrwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T06:02:04.357Z",
               "IsPinned": true,
@@ -147,13 +155,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "BackendsTests.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\BackendsTests.cs",
               "RelativeDocumentMoniker": "..\\SimpleL7ProxyTest\\BackendsTests.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\BackendsTests.cs",
               "RelativeToolTip": "..\\SimpleL7ProxyTest\\BackendsTests.cs",
-              "ViewState": "AgIAABMAAAAAnJmZmZkOwKwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALkAAAAA/v///38RwMwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T08:45:13.707Z",
               "IsPinned": true,
@@ -161,13 +169,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Backends.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Backends.cs",
               "RelativeDocumentMoniker": "Backends.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Backends.cs",
               "RelativeToolTip": "Backends.cs",
-              "ViewState": "AgIAABkAAAAApJmZmZkVwCAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAEABAAAAAgAAAAAPwH8BAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T05:35:31.315Z",
               "IsPinned": true,
@@ -175,20 +183,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackendOptions.cs",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\BackendOptions.cs",
+              "RelativeDocumentMoniker": "BackendOptions.cs",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\BackendOptions.cs",
+              "RelativeToolTip": "BackendOptions.cs",
+              "ViewState": "AgIAAAIAAACwzczMzMwHwBQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:05:18.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventHubClient.cs",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\EventHubClient.cs",
+              "RelativeDocumentMoniker": "EventHubClient.cs",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\EventHubClient.cs",
+              "RelativeToolTip": "EventHubClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:12:04.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ProxyWorker.cs",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyWorker.cs",
+              "RelativeDocumentMoniker": "ProxyWorker.cs",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyWorker.cs",
+              "RelativeToolTip": "ProxyWorker.cs",
+              "ViewState": "AgIAABAAAAAAAQAAAAARwBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:08:09.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProxyData.cs",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyData.cs",
+              "RelativeDocumentMoniker": "ProxyData.cs",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyData.cs",
+              "RelativeToolTip": "ProxyData.cs",
+              "ViewState": "AgIAAA4AAACAzMzMzEwnwAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:08:05.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppInsightsTextWriter.cs",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\AppInsightsTextWriter.cs",
+              "RelativeDocumentMoniker": "AppInsightsTextWriter.cs",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\AppInsightsTextWriter.cs",
+              "RelativeToolTip": "AppInsightsTextWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:14:08.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-16T10:26:30.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAARwCIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAgMzMzM7MiwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T05:46:46.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
+              "Title": "RequestData.cs",
+              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\RequestData.cs",
+              "RelativeDocumentMoniker": "RequestData.cs",
+              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\RequestData.cs",
+              "RelativeToolTip": "RequestData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:09:03.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IServer.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\IServer.cs",
               "RelativeDocumentMoniker": "IServer.cs",
@@ -201,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Interfaces.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\Interfaces.cs",
               "RelativeDocumentMoniker": "Interfaces.cs",
@@ -214,72 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventHubClient.cs",
-              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\EventHubClient.cs",
-              "RelativeDocumentMoniker": "EventHubClient.cs",
-              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\EventHubClient.cs",
-              "RelativeToolTip": "EventHubClient.cs",
-              "ViewState": "AgIAAB0AAACAzczMzMwvwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:12:04.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BackendOptions.cs",
-              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\BackendOptions.cs",
-              "RelativeDocumentMoniker": "BackendOptions.cs",
-              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\BackendOptions.cs",
-              "RelativeToolTip": "BackendOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:05:18.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProxyWorker.cs",
-              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyWorker.cs",
-              "RelativeDocumentMoniker": "ProxyWorker.cs",
-              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyWorker.cs",
-              "RelativeToolTip": "ProxyWorker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwBAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:08:09.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RequestData.cs",
-              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\RequestData.cs",
-              "RelativeDocumentMoniker": "RequestData.cs",
-              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\RequestData.cs",
-              "RelativeToolTip": "RequestData.cs",
-              "ViewState": "AgIAADwAAAAAl5mZmZkfwAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:09:03.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProxyData.cs",
-              "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyData.cs",
-              "RelativeDocumentMoniker": "ProxyData.cs",
-              "ToolTip": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\ProxyData.cs",
-              "RelativeToolTip": "ProxyData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:08:05.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "server.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\src\\server.cs",
               "RelativeDocumentMoniker": "server.cs",
@@ -292,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PriorityQueueTests.cs",
               "DocumentMoniker": "C:\\Users\\C296912\\Documents\\Workspace\\SimpleL7Proxy_Forked\\SimpleL7Proxy\\SimpleL7ProxyTest\\PriorityQueueTests.cs",
               "RelativeDocumentMoniker": "..\\SimpleL7ProxyTest\\PriorityQueueTests.cs",
@@ -302,6 +336,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-09T07:52:55.336Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{905da7d1-18fd-4a46-8d0f-a5ff58ada9de}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

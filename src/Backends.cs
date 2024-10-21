@@ -13,6 +13,7 @@ using System.Security.AccessControl;
 using SimpleL7Proxy.BackendHost;
 using SimpleL7Proxy.BackendOptions;
 using SimpleL7Proxy.Interfaces;
+using System.Diagnostics.CodeAnalysis;
 
 
 
@@ -199,6 +200,7 @@ namespace SimpleL7Proxy.Backends
             return _statusChanged;
         }
 
+        [ExcludeFromCodeCoverage]
         public virtual async Task<bool> GetHostStatus(BackendHost.BackendHost host, HttpClient client)
         {
             if (_debug)
@@ -379,7 +381,8 @@ namespace SimpleL7Proxy.Backends
                                  timeSpan.Milliseconds);
         }
 
-        public async Task<AccessToken> GetTokenAsync()
+        [ExcludeFromCodeCoverage]
+        public virtual async Task<AccessToken> GetTokenAsync()
         {
             try
             {

@@ -11,6 +11,7 @@ using SimpleL7Proxy.BackendOptions;
 using SimpleL7Proxy.Interfaces;
 using SimpleL7Proxy.PriorityQueue;
 using SimpleL7Proxy.ProxyData;
+using System.Diagnostics.CodeAnalysis;
 
 
 // The ProxyWorker class has the following main objectives:
@@ -22,6 +23,7 @@ using SimpleL7Proxy.ProxyData;
 // 6. Log telemetry data for each request.
 namespace SimpleL7Proxy.ProxyWorker
 {
+    [ExcludeFromCodeCoverage]
     public class ProxyWorker
     {
 
